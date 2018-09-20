@@ -7,6 +7,7 @@ from flask import Flask, redirect, url_for, request, render_template, json, json
 from pymongo import MongoClient
 from bson import json_util, ObjectId
 import configparser
+from react import React
 
 app = Flask(__name__)
 
